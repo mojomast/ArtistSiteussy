@@ -119,6 +119,30 @@ docker build -t cedric-site .
 docker run -p 3000:3000 cedric-site
 ```
 
+#### **Option 5: Automated Deployment Scripts**
+The project includes automated deployment scripts for easy setup:
+
+**For Windows:**
+```cmd
+# Run the deployment script
+deploy.bat
+```
+
+**For Linux/macOS:**
+```bash
+# Make script executable and run
+chmod +x deploy.sh
+./deploy.sh
+```
+
+**Features:**
+- Interactive menu with multiple hosting options
+- Automatic environment setup
+- Dependency installation and build process
+- CLI tool installation if needed
+- Docker setup generation
+- Manual deployment instructions
+
 ## 🎨 Theme System Implementation
 
 ### How It Works
