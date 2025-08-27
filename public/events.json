@@ -1,0 +1,88 @@
+{
+  "events_en": [
+    {
+      "id": "live-painting-mtl-arts",
+      "title": "Exhibition — City Gallery",
+      "description": "Public exhibition showcasing selected works. Dates and location to be confirmed.",
+      "start": "2025-08-29T22:00:00.000Z",
+      "end": "2025-08-30T01:00:00.000Z",
+      "location": "City, Country",
+      "venue": "City Gallery",
+      "type": "live-painting"
+    },
+    {
+      "id": "gallery-opening-loriginal",
+      "title": "Exhibition — City Gallery",
+      "description": "Public exhibition showcasing selected works. Dates and location to be confirmed.",
+      "start": "2024-10-01T17:00:00",
+      "end": "2024-10-01T20:00:00",
+      "location": "City, Country",
+      "venue": "City Gallery",
+      "type": "exhibition"
+    },
+    {
+      "id": "workshop-live-painting",
+      "title": "Exhibition — City Gallery",
+      "description": "Public exhibition showcasing selected works. Dates and location to be confirmed.",
+      "start": "2024-10-20T14:00:00",
+      "end": "2024-10-20T17:00:00",
+      "location": "City, Country",
+      "venue": "City Gallery",
+      "type": "workshop"
+    },
+    {
+      "id": "collaborative-painting",
+      "title": "Exhibition — City Gallery",
+      "description": "Public exhibition showcasing selected works. Dates and location to be confirmed.",
+      "start": "2024-11-10T18:00:00",
+      "end": "2024-11-10T22:00:00",
+      "location": "City, Country",
+      "venue": "City Gallery",
+      "type": "collaborative"
+    }
+  ],
+  "events_fr": [
+    {
+      "id": "live-painting-mtl-arts",
+      "title": "Exposition — Galerie de la Ville",
+      "description": "Exposition publique présentant des œuvres sélectionnées. Dates et lieu à confirmer.",
+      "start": "2024-09-15T18:00:00",
+      "end": "2024-09-15T21:00:00",
+      "location": "Ville, Pays",
+      "venue": "Galerie de la Ville",
+      "type": "live-painting"
+    },
+    {
+      "id": "gallery-opening-loriginal",
+      "title": "Exposition — Galerie de la Ville",
+      "description": "Exposition publique présentant des œuvres sélectionnées. Dates et lieu à confirmer.",
+      "start": "2024-10-01T17:00:00",
+      "end": "2024-10-01T20:00:00",
+      "location": "Ville, Pays",
+      "venue": "Galerie de la Ville",
+      "type": "exhibition"
+    },
+    {
+      "id": "workshop-live-painting",
+      "title": "Exposition — Galerie de la Ville",
+      "description": "Exposition publique présentant des œuvres sélectionnées. Dates et lieu à confirmer.",
+      "start": "2024-10-20T14:00:00",
+      "end": "2024-10-20T17:00:00",
+      "location": "Ville, Pays",
+      "venue": "Galerie de la Ville",
+      "type": "workshop"
+    },
+    {
+      "id": "collaborative-painting",
+      "title": "Exposition — Galerie de la Ville",
+      "description": "Exposition publique présentant des œuvres sélectionnées. Dates et lieu à confirmer.",
+      "start": "2024-11-10T18:00:00",
+      "end": "2024-11-10T22:00:00",
+      "location": "Ville, Pays",
+      "venue": "Galerie de la Ville",
+      "type": "collaborative"
+    }
+  ],
+  "upcoming_message_en": "Stay connected with the artist's upcoming exhibitions, live painting performances, and collaborative events.",
+  "upcoming_message_fr": "Restez connecté aux prochaines expositions, performances de peinture en direct, et événements collaboratifs de l'artiste."
+}

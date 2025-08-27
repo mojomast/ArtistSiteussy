@@ -1,0 +1,235 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700;800&display=swap');
+
+@layer base {
+  :root {
+    --theme-primary: #1e40af;
+    --theme-secondary: #64748b;
+    --theme-accent: #f59e0b;
+    --theme-background: #ffffff;
+    --theme-text: #1f2937;
+    --theme-border: #e5e7eb;
+  }
+
+  * {
+    border-color: var(--theme-border) !important;
+  }
+
+  body {
+    background-color: var(--theme-background) !important;
+    color: var(--theme-text) !important;
+    font-family: var(--theme-font-family, 'Inter'), sans-serif !important;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: var(--theme-text) !important;
+    font-family: var(--theme-heading-font-family, 'Playfair Display'), serif !important;
+  }
+
+  .theme-accent-bg {
+    background-color: var(--theme-accent) !important;
+  }
+
+  .theme-primary-text {
+    color: var(--theme-primary) !important;
+  }
+
+  .theme-accent-text {
+    color: var(--theme-accent) !important;
+  }
+
+  .theme-primary-bg {
+    background-color: var(--theme-primary) !important;
+  }
+
+  /* Theme color utilities */
+  .bg-theme-primary {
+    background-color: var(--theme-primary) !important;
+  }
+
+  .bg-theme-secondary {
+    background-color: var(--theme-secondary) !important;
+  }
+
+  .bg-theme-accent {
+    background-color: var(--theme-accent) !important;
+  }
+
+  .bg-theme-background {
+    background-color: var(--theme-background) !important;
+  }
+
+  .text-theme-primary {
+    color: var(--theme-primary) !important;
+  }
+
+  .text-theme-secondary {
+    color: var(--theme-secondary) !important;
+  }
+
+  .text-theme-accent {
+    color: var(--theme-accent) !important;
+  }
+
+  .text-theme-text {
+    color: var(--theme-text) !important;
+  }
+
+  .border-theme-primary {
+    border-color: var(--theme-primary) !important;
+  }
+
+  .border-theme-secondary {
+    border-color: var(--theme-secondary) !important;
+  }
+
+  .border-theme-accent {
+    border-color: var(--theme-accent) !important;
+  }
+
+  .border-theme-border {
+    border-color: var(--theme-border) !important;
+  }
+
+  /* Respect user's motion preferences */
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    @apply w-2;
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: var(--theme-background);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--theme-secondary);
+    border-radius: 9999px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: var(--theme-primary);
+  }
+  :root {
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+  .dark {
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    background-color: var(--theme-accent) !important;
+    color: var(--theme-primary) !important;
+    font-weight: 600;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    transition: all 0.2s;
+  }
+
+  .btn-primary:hover {
+    opacity: 0.9;
+  }
+
+  .btn-primary:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px var(--theme-accent), 0 0 0 4px var(--theme-primary);
+  }
+
+  .btn-secondary {
+    background-color: transparent !important;
+    border: 1px solid var(--theme-accent) !important;
+    color: var(--theme-accent) !important;
+    font-weight: 600;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    transition: all 0.2s;
+  }
+
+  .btn-secondary:hover {
+    background-color: var(--theme-accent) !important;
+    color: var(--theme-primary) !important;
+  }
+
+  .btn-secondary:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px var(--theme-accent), 0 0 0 4px var(--theme-primary);
+  }
+
+  .section-padding {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  @media (min-width: 640px) {
+    .section-padding {
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .section-padding {
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+  }
+
+  .container-max {
+    max-width: 80rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* Admin panel specific overrides */
+@layer components {
+  .admin-content {
+    color: #1f2937 !important;
+  }
+  
+  .admin-content * {
+    color: #1f2937 !important;
+  }
+  
+  .admin-content input,
+  .admin-content textarea,
+  .admin-content select,
+  .admin-content label {
+    color: #1f2937 !important;
+  }
+  
+  .admin-content .card {
+    background-color: white !important;
+    color: #1f2937 !important;
+  }
+}

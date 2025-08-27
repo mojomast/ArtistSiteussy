@@ -1,0 +1,136 @@
+{
+  "title_en": "Commission Requests",
+  "title_fr": "Demandes de commissions",
+  "subtitle_en": "Bring Your Vision to Life",
+  "subtitle_fr": "Donnez vie à votre vision",
+  "description_en": "Commissions are available. Contact via contact@example.com for details and pricing.",
+  "description_fr": "Les commissions sont disponibles. Contactez via contact@example.com pour les détails et les prix.",
+  "commission_types_en": [
+    {
+      "id": "portrait",
+      "name": "Portrait Commissions",
+      "description": "Personal portraits, family portraits, pet portraits",
+      "sizes": [
+        {
+          "name": "16\" x 20\"",
+          "price": 800
+        },
+        {
+          "name": "24\" x 30\"",
+          "price": 1200
+        }
+      ]
+    },
+    {
+      "id": "live-event",
+      "name": "Live Event Painting",
+      "description": "Weddings, corporate events, celebrations",
+      "price_range": "500-1500",
+      "note": "depending on event duration"
+    },
+    {
+      "id": "custom",
+      "name": "Custom Artwork",
+      "description": "Abstract pieces, urban-inspired works, mixed media creations",
+      "pricing": "15-25 CAD per square inch"
+    },
+    {
+      "id": "mural",
+      "name": "Mural Projects",
+      "description": "Interior and exterior wall art for residential or commercial spaces",
+      "note": "Quote upon consultation"
+    }
+  ],
+  "commission_types_fr": [
+    {
+      "id": "portrait",
+      "name": "Commissions de portraits",
+      "description": "Portraits personnels, portraits de famille, portraits d'animaux",
+      "sizes": [
+        {
+          "name": "16\" x 20\"",
+          "price": 800
+        },
+        {
+          "name": "24\" x 30\"",
+          "price": 1200
+        }
+      ]
+    },
+    {
+      "id": "live-event",
+      "name": "Peinture d'événements en direct",
+      "description": "Mariages, événements corporatifs, célébrations",
+      "price_range": "500-1500",
+      "note": "selon la durée de l'événement"
+    },
+    {
+      "id": "custom",
+      "name": "Œuvres d'art personnalisées",
+      "description": "Pièces abstraites, œuvres d'inspiration urbaine, créations mixtes",
+      "pricing": "15-25 $ CAD par pouce carré"
+    },
+    {
+      "id": "mural",
+      "name": "Projets de murales",
+      "description": "Art mural intérieur et extérieur pour espaces résidentiels ou commerciaux",
+      "note": "Devis sur consultation"
+    }
+  ],
+  "process_en": [
+    {
+      "step": 1,
+      "title": "Initial Consultation",
+      "description": "Discuss your vision, preferences, and project scope"
+    },
+    {
+      "step": 2,
+      "title": "Concept Development",
+      "description": "Receive initial sketches and design proposals"
+    },
+    {
+      "step": 3,
+      "title": "Creation Phase",
+      "description": "Track progress through regular updates and photos"
+    },
+    {
+      "step": 4,
+      "title": "Final Delivery",
+      "description": "Professional finishing and secure delivery/installation"
+    }
+  ],
+  "process_fr": [
+    {
+      "step": 1,
+      "title": "Consultation initiale",
+      "description": "Discuter de votre vision, préférences et portée du projet"
+    },
+    {
+      "step": 2,
+      "title": "Développement du concept",
+      "description": "Recevoir des esquisses initiales et propositions de design"
+    },
+    {
+      "step": 3,
+      "title": "Phase de création",
+      "description": "Suivre les progrès grâce à des mises à jour et photos régulières"
+    },
+    {
+      "step": 4,
+      "title": "Livraison finale",
+      "description": "Finition professionnelle et livraison/installation sécurisée"
+    }
+  ],
+  "terms_en": {
+    "deposit": "50% deposit required to begin work",
+    "timeline": "Completion time: 2-6 weeks depending on complexity",
+    "revisions": "Revisions included during sketch phase",
+    "authenticity": "All original artworks come with certificate of authenticity"
+  },
+  "terms_fr": {
+    "deposit": "Acompte de 50% requis pour commencer le travail",
+    "timeline": "Temps de réalisation : 2-6 semaines selon la complexité",
+    "revisions": "Révisions incluses durant la phase d'esquisse",
+    "authenticity": "Toutes les œuvres d'art originales viennent avec certificat d'authenticité"
+  }
+}

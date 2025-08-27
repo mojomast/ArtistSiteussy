@@ -1,0 +1,15 @@
+node_modules/
+.next/
+.env*
+.vscode/
+npm-debug.log*
+yarn-error.log
+.DS_Store
+coverage/
+out/
+*.log
+tsconfig.tsbuildinfo
+.idea/
+.turbo/
+.cache/
+dist/

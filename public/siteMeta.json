@@ -1,0 +1,48 @@
+{
+  "artistName": "kyle",
+  "siteTitle": "MR ARTIST THE ARTIST!!!",
+  "bio_en": "# About the Artist\n\nA contemporary artist specializing in portraits and abstract works, creating vibrant pieces that capture urban energy and cultural diversity.",
+  "bio_fr": "# À propos de l'artiste\n\nUn artiste contemporain spécialisé dans les portraits et les œuvres abstraites, créant des pièces vibrantes qui capturent l'énergie urbaine et la diversité culturelle.",
+  "tagline_en": "Contemporary Artist & Live Painting Specialist",
+  "tagline_fr": "Artiste Contemporain & Spécialiste de la Peinture en Direct",
+  "contact": {
+    "email": "contact@example.com",
+    "location": "City, Country"
+  },
+  "theme": {
+    "primaryColor": "#059669",
+    "secondaryColor": "#10b981",
+    "accentColor": "#f59e0b",
+    "backgroundColor": "#ffffff",
+    "textColor": "#1f2937",
+    "fontFamily": "Inter",
+    "headingFontFamily": "Playfair Display",
+    "layout": "tabbed"
+  },
+  "sections": {
+    "hero": true,
+    "bio": true,
+    "gallery": true,
+    "events": true,
+    "commissions": true,
+    "shop": true
+  },
+  "socialMedia": {
+    "facebook": "https://facebook.com/poop",
+    "twitter": "",
+    "instagram": "",
+    "linkedin": "",
+    "youtube": "",
+    "tiktok": "",
+    "behance": "",
+    "dribbble": "",
+    "website": ""
+  },
+  "customLinks": [
+    {
+      "name": "github",
+      "url": "https://github.com/mojomast",
+      "icon": "external-link"
+    }
+  ]
+}

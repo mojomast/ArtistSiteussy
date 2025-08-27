@@ -1,0 +1,231 @@
+{
+  "products_en": [
+    {
+      "id": "urban-portrait-7",
+      "title": "Urban Portrait #7",
+      "description": "Contemporary portrait capturing the essence of urban culture",
+      "medium": "Acrylic on canvas",
+      "dimensions": "24\" x 30\"",
+      "price": 1800,
+      "currency": "CAD",
+      "is_available": true,
+      "sold": false,
+      "inventory_quantity": 1,
+      "image_url": "/placeholder/03a880bb-91b0-4c94-b356-d88913f2bddc.jpg",
+      "stripe_price_id": "price_placeholder_urban_portrait_7",
+      "tags": [
+        "portrait",
+        "urban",
+        "contemporary"
+      ]
+    },
+    {
+      "id": "abstract-rhythm-series-3",
+      "title": "Abstract Rhythm Series - Piece 3",
+      "description": "Mixed media abstract work exploring rhythm and movement",
+      "medium": "Mixed media on wood panel",
+      "dimensions": "20\" x 24\"",
+      "price": 1200,
+      "currency": "CAD",
+      "is_available": true,
+      "sold": true,
+      "inventory_quantity": 0,
+      "image_url": "/placeholder/abstract-rhythm-3.jpg",
+      "stripe_price_id": "price_placeholder_abstract_rhythm_3",
+      "tags": [
+        "abstract",
+        "mixed-media",
+        "rhythm"
+      ],
+      "sales": []
+    },
+    {
+      "id": "street-memories",
+      "title": "Street Memories",
+      "description": "Markers and acrylic on canvas capturing street art memories",
+      "medium": "Markers and acrylic on canvas",
+      "dimensions": "16\" x 20\"",
+      "price": 900,
+      "currency": "CAD",
+      "is_available": true,
+      "sold": true,
+      "inventory_quantity": 0,
+      "image_url": "/placeholder/street-memories.jpg",
+      "stripe_price_id": "price_placeholder_street_memories",
+      "tags": [
+        "street-art",
+        "markers",
+        "memories"
+      ],
+      "sales": []
+    },
+    {
+      "id": "urban-portrait-5",
+      "title": "Urban Portrait #5",
+      "description": "Dynamic urban portrait capturing vibrant street life and cultural diversity",
+      "medium": "Acrylic on canvas",
+      "dimensions": "20\" x 24\"",
+      "price": 1400,
+      "currency": "CAD",
+      "is_available": true,
+      "sold": false,
+      "inventory_quantity": 1,
+      "image_url": "/placeholder/urban-portrait-5.jpg",
+      "stripe_price_id": "price_placeholder_urban_portrait_5",
+      "tags": [
+        "portrait",
+        "urban",
+        "contemporary"
+      ]
+    },
+    {
+      "id": "live-painting-capture-1",
+      "title": "Live Painting Capture #1",
+      "description": "Spontaneous artwork created during a live painting session at a cultural festival",
+      "medium": "Acrylic and markers on canvas",
+      "dimensions": "18\" x 24\"",
+      "price": 950,
+      "currency": "CAD",
+      "is_available": true,
+      "sold": true,
+      "inventory_quantity": 0,
+      "image_url": "/placeholder/live-painting-capture-1.jpg",
+      "stripe_price_id": "price_placeholder_live_painting_capture_1",
+      "tags": [
+        "live-painting",
+        "festival",
+        "spontaneous"
+      ],
+      "sales": []
+    }
+  ],
+  "products_fr": [
+    {
+      "id": "urban-portrait-7",
+      "title": "Portrait urbain #7",
+      "description": "Portrait contemporain capturant l'essence de la culture urbaine diverse",
+      "medium": "Acrylique sur toile",
+      "dimensions": "24\" x 30\"",
+      "price": 1800,
+      "currency": "CAD",
+      "is_available": true,
+      "sold": false,
+      "inventory_quantity": 1,
+      "image_url": "/placeholder/urban-portrait-7.jpg",
+      "stripe_price_id": "price_placeholder_urban_portrait_7",
+      "tags": [
+        "portrait",
+        "urbain",
+        "contemporain"
+      ]
+    },
+    {
+      "id": "abstract-rhythm-series-3",
+      "title": "Série Rythme abstrait - Pièce 3",
+      "description": "Œuvre abstraite en techniques mixtes explorant le rythme et le mouvement",
+      "medium": "Techniques mixtes sur panneau de bois",
+      "dimensions": "20\" x 24\"",
+      "price": 1200,
+      "currency": "CAD",
+      "is_available": true,
+      "sold": false,
+      "inventory_quantity": 1,
+      "image_url": "/placeholder/abstract-rhythm-3.jpg",
+      "stripe_price_id": "price_placeholder_abstract_rhythm_3",
+      "tags": [
+        "abstrait",
+        "techniques-mixtes",
+        "rythme"
+      ]
+    },
+    {
+      "id": "street-memories",
+      "title": "Souvenirs de rue",
+      "description": "Marqueurs et acrylique sur toile capturant des souvenirs de street art",
+      "medium": "Marqueurs et acrylique sur toile",
+      "dimensions": "16\" x 20\"",
+      "price": 900,
+      "currency": "CAD",
+      "is_available": true,
+      "sold": false,
+      "inventory_quantity": 1,
+      "image_url": "/placeholder/street-memories.jpg",
+      "stripe_price_id": "price_placeholder_street_memories",
+      "tags": [
+        "street-art",
+        "marqueurs",
+        "souvenirs"
+      ]
+    },
+    {
+      "id": "urban-portrait-5",
+      "title": "Portrait urbain #5",
+      "description": "Portrait urbain dynamique capturant la vie de rue vibrante et la diversité culturelle",
+      "medium": "Acrylique sur toile",
+      "dimensions": "20\" x 24\"",
+      "price": 1400,
+      "currency": "CAD",
+      "is_available": true,
+      "sold": false,
+      "inventory_quantity": 1,
+      "image_url": "/placeholder/urban-portrait-5.jpg",
+      "stripe_price_id": "price_placeholder_urban_portrait_5",
+      "tags": [
+        "portrait",
+        "urbain",
+        "contemporain"
+      ]
+    },
+    {
+      "id": "live-painting-capture-1",
+      "title": "Capture de peinture en direct #1",
+      "description": "Œuvre spontanée créée lors d'une session de peinture en direct au festival culturel",
+      "medium": "Acrylique et marqueurs sur toile",
+      "dimensions": "18\" x 24\"",
+      "price": 950,
+      "currency": "CAD",
+      "is_available": true,
+      "sold": false,
+      "inventory_quantity": 1,
+      "image_url": "/placeholder/live-painting-capture-1.jpg",
+      "stripe_price_id": "price_placeholder_live_painting_capture_1",
+      "tags": [
+        "peinture-en-direct",
+        "festival",
+        "spontané"
+      ]
+    }
+  ],
+  "shipping_info_en": {
+    "free_shipping_threshold": 1000,
+    "montreal_shipping": "Free shipping within the city",
+    "canada_shipping": "Canada-wide shipping: $50-150 CAD",
+    "international_shipping": "International shipping: Quote upon request",
+    "flexible_payment": "Flexible payment plans available for purchases over $1,000 CAD"
+  },
+  "shipping_info_fr": {
+    "free_shipping_threshold": 1000,
+    "montreal_shipping": "Expédition gratuite dans la ville",
+    "canada_shipping": "Expédition à travers le Canada : 50-150 $ CAD",
+    "international_shipping": "Expédition internationale : Devis sur demande",
+    "flexible_payment": "Plans de paiement flexibles disponibles pour les achats de plus de 1 000 $ CAD"
+  },
+  "limited_edition_prints_en": {
+    "description": "High-quality giclée prints of select works, signed and numbered by the artist.",
+    "sizes": [
+      "11\"x14\"",
+      "16\"x20\"",
+      "24\"x30\""
+    ],
+    "price_range": "$75 - $300 CAD"
+  },
+  "limited_edition_prints_fr": {
+    "description": "Tirages giclée de haute qualité d'œuvres sélectionnées, signés et numérotés par l'artiste.",
+    "sizes": [
+      "11\"x14\"",
+      "16\"x20\"",
+      "24\"x30\""
+    ],
+    "price_range": "75 - 300 $ CAD"
+  }
+}

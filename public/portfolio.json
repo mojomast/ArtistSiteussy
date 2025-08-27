@@ -1,0 +1,276 @@
+{
+  "featured_en": [
+    {
+      "id": "miles",
+      "title": "Miles",
+      "year": 2023,
+      "medium": "Acrylic and markers on canvas",
+      "dimensions": "36\" x 48\"",
+      "description": "A representative work from the artist's collection. Created using mixed media; available for display and licensing.",
+      "imageUrl": "/placeholder/miles-2023.jpg"
+    },
+    {
+      "id": "cosmic-migration",
+      "title": "Cosmic Migration",
+      "year": 2022,
+      "medium": "Acrylic and markers on canvas",
+      "dimensions": "30\" x 40\"",
+      "description": "A representative work from the artist's collection. Created using mixed media; available for display and licensing.",
+      "imageUrl": "/placeholder/cosmic-migration-2022.jpg"
+    },
+    {
+      "id": "zilon",
+      "title": "Zïlon",
+      "year": 2023,
+      "medium": "Acrylic and markers on canvas",
+      "dimensions": "36\" x 48\"",
+      "description": "A representative work from the artist's collection. Created using mixed media; available for display and licensing.",
+      "imageUrl": "/placeholder/zilon-2023.jpg"
+    },
+    {
+      "id": "urban-reflections",
+      "title": "Urban Reflections",
+      "year": 2023,
+      "medium": "Acrylic and markers on canvas",
+      "dimensions": "24\" x 36\"",
+      "description": "A representative work from the artist's collection. Created using mixed media; available for display and licensing.",
+      "imageUrl": "/placeholder/urban-reflections-2023.jpg"
+    },
+    {
+      "id": "festival-energy",
+      "title": "Festival Energy",
+      "year": 2023,
+      "medium": "Acrylic and markers on canvas",
+      "dimensions": "30\" x 40\"",
+      "description": "A representative work from the artist's collection. Created using mixed media; available for display and licensing.",
+      "imageUrl": "/placeholder/festival-energy-2023.jpg"
+    }
+  ],
+  "featured_fr": [
+    {
+      "id": "miles",
+      "title": "Miles",
+      "year": 2023,
+      "medium": "Acrylique et marqueurs sur toile",
+      "dimensions": "36\" x 48\"",
+      "description": "Une œuvre représentative de la collection de l'artiste. Créée en utilisant des techniques mixtes ; disponible pour l'exposition et la licence.",
+      "imageUrl": "/placeholder/miles-2023.jpg"
+    },
+    {
+      "id": "cosmic-migration",
+      "title": "Cosmic Migration",
+      "year": 2022,
+      "medium": "Acrylique et marqueurs sur toile",
+      "dimensions": "30\" x 40\"",
+      "description": "Une œuvre représentative de la collection de l'artiste. Créée en utilisant des techniques mixtes ; disponible pour l'exposition et la licence.",
+      "imageUrl": "/placeholder/cosmic-migration-2022.jpg"
+    },
+    {
+      "id": "zilon",
+      "title": "Zïlon",
+      "year": 2023,
+      "medium": "Acrylique et marqueurs sur toile",
+      "dimensions": "36\" x 48\"",
+      "description": "Une œuvre représentative de la collection de l'artiste. Créée en utilisant des techniques mixtes ; disponible pour l'exposition et la licence.",
+      "imageUrl": "/placeholder/zilon-2023.jpg"
+    },
+    {
+      "id": "urban-reflections",
+      "title": "Réflexions urbaines",
+      "year": 2023,
+      "medium": "Acrylique et marqueurs sur toile",
+      "dimensions": "24\" x 36\"",
+      "description": "Une œuvre représentative de la collection de l'artiste. Créée en utilisant des techniques mixtes ; disponible pour l'exposition et la licence.",
+      "imageUrl": "/placeholder/urban-reflections-2023.jpg"
+    },
+    {
+      "id": "festival-energy",
+      "title": "Énergie de festival",
+      "year": 2023,
+      "medium": "Acrylique et marqueurs sur toile",
+      "dimensions": "30\" x 40\"",
+      "description": "Une œuvre représentative de la collection de l'artiste. Créée en utilisant des techniques mixtes ; disponible pour l'exposition et la licence.",
+      "imageUrl": "/placeholder/festival-energy-2023.jpg"
+    }
+  ],
+  "collections_en": [
+    {
+      "id": "urban-portraits",
+      "name": "Urban Portraits Series",
+      "description": "Contemporary faces of the city",
+      "artworks": [
+        {
+          "id": "urban-portrait-1",
+          "title": "Urban Portrait #1",
+          "imageUrl": "/placeholder/urban-portrait-1.jpg"
+        },
+        {
+          "id": "urban-portrait-2",
+          "title": "Urban Portrait #2",
+          "imageUrl": "/placeholder/urban-portrait-2.jpg"
+        },
+        {
+          "id": "urban-portrait-3",
+          "title": "Urban Portrait #3",
+          "imageUrl": "/placeholder/urban-portrait-3.jpg"
+        },
+        {
+          "id": "urban-portrait-4",
+          "title": "Urban Portrait #4",
+          "imageUrl": "/placeholder/urban-portrait-4.jpg"
+        }
+      ]
+    },
+    {
+      "id": "street-art-abstracts",
+      "name": "Street Art Abstracts",
+      "description": "Mixed media works inspired by urban art",
+      "artworks": [
+        {
+          "id": "street-abstract-1",
+          "title": "Street Abstract #1",
+          "imageUrl": "/placeholder/street-abstract-1.jpg"
+        },
+        {
+          "id": "street-abstract-2",
+          "title": "Street Abstract #2",
+          "imageUrl": "/placeholder/street-abstract-2.jpg"
+        },
+        {
+          "id": "street-abstract-3",
+          "title": "Street Abstract #3",
+          "imageUrl": "/placeholder/street-abstract-3.jpg"
+        }
+      ]
+    },
+    {
+      "id": "live-event-captures",
+      "name": "Live Event Captures",
+      "description": "Spontaneous creations from events and performances",
+      "artworks": [
+        {
+          "id": "live-painting-1",
+          "title": "Live Painting Session #1",
+          "imageUrl": "/placeholder/live-painting-1.jpg"
+        },
+        {
+          "id": "live-painting-2",
+          "title": "Live Painting Session #2",
+          "imageUrl": "/placeholder/live-painting-2.jpg"
+        },
+        {
+          "id": "live-painting-3",
+          "title": "Live Painting Session #3",
+          "imageUrl": "/placeholder/live-painting-3.jpg"
+        }
+      ]
+    },
+    {
+      "id": "collaborative-works",
+      "name": "Collaborative Works",
+      "description": "Projects created with fellow artists",
+      "artworks": [
+        {
+          "id": "collaborative-1",
+          "title": "Collaborative Painting #1",
+          "imageUrl": "/placeholder/collaborative-1.jpg"
+        },
+        {
+          "id": "collaborative-2",
+          "title": "Collaborative Painting #2",
+          "imageUrl": "/placeholder/collaborative-2.jpg"
+        }
+      ]
+    }
+  ],
+  "collections_fr": [
+    {
+      "id": "urban-portraits",
+      "name": "Série Portraits urbains",
+      "description": "Visages contemporains de la ville",
+      "artworks": [
+        {
+          "id": "urban-portrait-1",
+          "title": "Portrait urbain #1",
+          "imageUrl": "/placeholder/urban-portrait-1.jpg"
+        },
+        {
+          "id": "urban-portrait-2",
+          "title": "Portrait urbain #2",
+          "imageUrl": "/placeholder/urban-portrait-2.jpg"
+        },
+        {
+          "id": "urban-portrait-3",
+          "title": "Portrait urbain #3",
+          "imageUrl": "/placeholder/urban-portrait-3.jpg"
+        },
+        {
+          "id": "urban-portrait-4",
+          "title": "Portrait urbain #4",
+          "imageUrl": "/placeholder/urban-portrait-4.jpg"
+        }
+      ]
+    },
+    {
+      "id": "street-art-abstracts",
+      "name": "Abstraits Street Art",
+      "description": "Œuvres mixtes d'inspiration urbaine",
+      "artworks": [
+        {
+          "id": "street-abstract-1",
+          "title": "Abstrait Street #1",
+          "imageUrl": "/placeholder/street-abstract-1.jpg"
+        },
+        {
+          "id": "street-abstract-2",
+          "title": "Abstrait Street #2",
+          "imageUrl": "/placeholder/street-abstract-2.jpg"
+        },
+        {
+          "id": "street-abstract-3",
+          "title": "Abstrait Street #3",
+          "imageUrl": "/placeholder/street-abstract-3.jpg"
+        }
+      ]
+    },
+    {
+      "id": "live-event-captures",
+      "name": "Captures d'événements en direct",
+      "description": "Créations spontanées d'événements et performances",
+      "artworks": [
+        {
+          "id": "live-painting-1",
+          "title": "Session de peinture en direct #1",
+          "imageUrl": "/placeholder/live-painting-1.jpg"
+        },
+        {
+          "id": "live-painting-2",
+          "title": "Session de peinture en direct #2",
+          "imageUrl": "/placeholder/live-painting-2.jpg"
+        },
+        {
+          "id": "live-painting-3",
+          "title": "Session de peinture en direct #3",
+          "imageUrl": "/placeholder/live-painting-3.jpg"
+        }
+      ]
+    },
+    {
+      "id": "collaborative-works",
+      "name": "Œuvres collaboratives",
+      "description": "Projets créés avec des artistes collègues",
+      "artworks": [
+        {
+          "id": "collaborative-1",
+          "title": "Peinture collaborative #1",
+          "imageUrl": "/placeholder/collaborative-1.jpg"
+        },
+        {
+          "id": "collaborative-2",
+          "title": "Peinture collaborative #2",
+          "imageUrl": "/placeholder/collaborative-2.jpg"
+        }
+      ]
+    }
+  ]
+}

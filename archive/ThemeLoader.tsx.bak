@@ -1,0 +1,44 @@
+'use client'
+
+import { useEffect } from 'react'
+import { loadSiteMeta } from '../lib/clientDataLoader'
+
+export default function ThemeLoader() {
+  useEffect(() => {
+    // Load theme settings and apply them
+    loadSiteMeta()
+      .then((data) => {
+        if (data?.theme) {
+          applyTheme(data.theme)
+        }
+      })
+      .catch((error) => {
+        console.error('Error loading theme:', error)
+      })
+  }, [])
+
+  const applyTheme = (theme: any) => {
+    if (typeof document !== 'undefined') {
+      const root = document.documentElement
+
+      // Apply theme colors
+      root.style.setProperty('--theme-primary', theme.primaryColor || '#1e40af')
+      root.style.setProperty('--theme-secondary', theme.secondaryColor || '#64748b')
+      root.style.setProperty('--theme-accent', theme.accentColor || '#f59e0b')
+      root.style.setProperty('--theme-background', theme.backgroundColor || '#ffffff')
+      root.style.setProperty('--theme-text', theme.textColor || '#1f2937')
+
+      // Apply fonts
+      root.style.setProperty('--theme-font-family', theme.fontFamily || 'Inter')
+      root.style.setProperty('--theme-heading-font-family', theme.headingFontFamily || 'Playfair Display')
+
+      // Apply layout class to body
+      if (theme.layout) {
+        document.body.classList.remove('layout-scroll', 'layout-tabbed')
+        document.body.classList.add(`layout-${theme.layout}`)
+      }
+    }
+  }
+
+  return null // This component doesn't render anything
+}
