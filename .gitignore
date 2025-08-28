@@ -13,3 +13,6 @@ tsconfig.tsbuildinfo
 .turbo/
 .cache/
 dist/
+copy.md
+copy2.md
+cedric-portrait.jpg
